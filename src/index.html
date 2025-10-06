@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Raj Mahal</title>
+    <link rel="icon" href="images/logo.png">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./input.css" rel="stylesheet">
+    <link href="./rooms.html">
+    <link href="./contact.html">
+    <link href="./category.html">
+</head>
+<body>
+    <header id="head" class="fixed w-full bg-black shadow-lg z-50">
+        <nav class="container mx-auto py-4 flex justify-between items-center">
+            <div class="logo">
+                <a href="#">
+                <img  id="logo" src="images/logo.png" alt="logo"><h1 id="name">Hotel Raj Mahal</h1>
+                </a>
+            </div>
+            <div>
+                <a href="#home" class="mx-6 text-white hover:text-yellow-600 font-bold">Home</a>
+                <a href="rooms.html" class="mx-6 text-white hover:text-yellow-600 font-bold">Rooms</a>
+                <a href="category.html" class="mx-6 text-white hover:text-yellow-600 font-bold">Category</a>
+                <a href="contact.html" class="mx-6 text-white hover:text-yellow-600 font-bold">Contact</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!--Hero Section-->
+
+    <section id="home" class="relative h-screen bg-cover bg-center" style="background-image:url('images/HeroImage.jpg')">
+        <div id="opac" class="absolute inset-10 bg-black h-screen w-full opacity-50"></div>
+        <div id="wel" class="relative z-10 container mx-auto text-center text-yellow-400 p-40">
+            <h1 class="text-4xl font-semibold mx-6">Welcome to Hotel Raj Mahal</h1>
+            <p class="text-2xl text-center mx-6">A place with Comfort , Hospitality and Luxary</p>   
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section  id="back">
+        <div class="container mx-auto text-center ">
+            <h1 id="heading" class="text-3xl font-semibold text-yellow-500 text-center">Hotel Raj Mahal</h1>
+            <div  id="about" class="grid md:grid-cols-2 gap-2">
+                <div>
+                    <img id="guard" src="images/guard.jpg">
+                </div>
+                <div id="bio" class="font-semibold">
+                    <p>
+                    The Raj Mahal Hotel is the Palace of the King of Jaipur Maharana JaiChand Bhawani Singh Rajput built in 1822 for the Royal Family of Jaipur which is now redeveloped as Hotel and managed by the Raj Mahal Group of Hotels . 
+                    The Hotel is still carring the legecy of the Maharana by preserving the heritage and serving the hospitality to our guests . 
+                    <br/><br/>
+                    The ultimate goal is not not just for our guests to become loyal to our brand but become advocates for our business , incentivising other travellers to stay with us and experience the hospitality . 
+                    Kindness and courtesy as a foundation of our service goes a long way in making sure hotel always leave our guests feeling satisfied and happy . 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Room Section-->
+
+    <section id="rooms" class="py-20">
+        <div class="container mx-auto text-center mb-8">
+            <h1 id="heading" class="text-3xl font-semibold mb-8 text-yellow-500 text-center">Our Rooms</h1>
+            <div id="cont" class="grid md:grid-cols-3 gap-3">
+                
+                <div id="card" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-3sec">
+                    <img id="imag" class="w-full h-64 object-cover"
+                        src="images/MaharajaSuite.jpg">
+                    <div class="p-12">
+                        <h3 class="text-2xl text-yellow-400 font-semibold mb-4">Maharaja Suite</h3>
+                        <p class="text-yellow-600 mb-4">Super Luxurious Room </br>With private pool and office with complementry jacuzzi and spa</br>Personal butler always there for you</p>
+                        <p class="font-semibold">Rs-1,20,000/day</p>
+                    </div>
+                </div>
+            
+                <div id="card" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-3sec">
+                    <img id="imag" class="w-full h-64 object-cover"
+                        src="images/MaharaniSuite.avif">
+                    <div class="p-12">
+                        <h3 class="text-2xl text-yellow-400 font-semibold mb-4">Maharani Suite</h3>
+                        <p class="text-yellow-600 mb-4">Luxurious Room </br>With private pool and complementry spa and food</br>Personal butler always there for you</p>
+                        <p class="font-semibold">Rs-80,000/day</p>
+                    </div>
+                </div>
+            
+                <div id="card" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-3sec">
+                    <img id="imag" class="w-full h-64 object-cover"
+                        src="images/TwinRoom.jpg">
+                    <div class="p-12">
+                        <h3 class="text-2xl text-yellow-400 font-semibold mb-4">Twin Room</h3>
+                        <p class="text-yellow-600 mb-4">Spacious room </br>With jacuzzi and complementry spa and food </br>Get access to hotel membership</p>
+                        <p class="font-semibold">Rs-50,000/day</p>
+                    </div>
+                </div>
+            </div>
+            <div id="cont" class="grid md:grid-cols-3 gap-3">
+                
+                <div id="card" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-3sec">
+                    <img id="imag" class="w-full h-64 object-cover"
+                        src="images/DeluxeRoom.jpg">
+                    <div class="p-12">
+                        <h3 class="text-2xl text-yellow-400 font-semibold mb-4">Deluxe Room</h3>
+                        <p class="text-yellow-600 mb-4">Delux Room </br>With complementry spa and meals</br>Get access to hotel membership<br/>Get 30% off on next booking</p>
+                        <p class="font-semibold">Rs-30,000/day</p>
+                    </div>
+                </div>
+            
+                <div id="card" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-3sec">
+                    <img id="imag" class="w-full h-64 object-cover"
+                        src="images/PremiumRoom.webp">
+                    <div class="p-12">
+                        <h3 class="text-2xl text-yellow-400 font-semibold mb-4">Premium Room</h3>
+                        <p class="text-yellow-600 mb-4">Premium Room </br>With complementry meals</br>Get 25% off on next booking</p><br/>
+                        <p class="font-semibold">Rs-20,000/day</p>
+                    </div>
+                </div>
+            
+                <div id="card" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-3sec">
+                    <img id="imag" class="w-full h-64 object-cover"
+                        src="images/StandardRoom.jpg">
+                    <div class="p-12">
+                        <h3 class="text-2xl text-yellow-400 font-semibold mb-4">Standard Room</h3>
+                        <p class="text-yellow-600 mb-4">Spacious room </br>With complementry meals</br>Get 20% off on next booking</p><br/>
+                        <p class="font-semibold">Rs-15,000/day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category -->
+
+    <section id="bg">
+        <div class="container mx-auto text-center ">
+            <h1 id="heading" class="text-3xl font-semibold text-yellow-500 text-center">Category</h1>
+            <div id="category" class="grid md:grid-cols-2 gap-2">
+                <div id="list" class="font-semibold">
+                    <p>We provide a wide range of category in our hotel from High Tech halls for coorporate meeting to Luxurious Halls for Bilateral Talks , 
+                        from World Class Restaurants for Family Dinner to Massive Lawn for Wedding Functions . We are concerned to serve our guests the best .
+                        It satisfies us to satisfy our guests , we feel honoured when our guests advocate us globally which encourage us put more efforts and increase our limits . 
+                        Our categories are managed by world class event managers who work tirelessly to provide our guests ones in a lifetime moment . 
+                    </p><br/>
+                    <h1>Our categories Includes :</h1><br/>
+                    <ul>
+                        <li>*  Pool for Pool Parties</li><br/>
+                        <li>*  Five Meeting Halls</li><br/>
+                        <li>*  Two Restaurants - 
+                            <div id="break">Raj Bhog </div>
+                            <div id="break">Padharo</div>
+                        </li> <br/>  
+                        <li>*  Two Banquet Halls -
+                            <div id="break">Darbar Hall </div>
+                            <div id="break">Mandapam Hall</div>
+                        </li> <br/>
+                        <li>*  Massive Lawn - 
+                            <div id="break">Rajbagh</div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="gallary">
+                    <div>
+                        <img id="catimg" src="images/Lawn.webp">
+                        <img id="catimg" src="images/Hall1.webp">                       
+                        <img id="catimg" src="images/Dine1.webp">
+                        <img id="catimg" src="images/Hall2.jpg">
+                    </div>
+                    <div>
+                        <img id="catimg" src="images/Ramp.avif">
+                        <img id="catimg" src="images/Hall3.png">
+                        <img id="catimg" src="images/Dine2.webp">
+                        <img id="catimg" src="images/Pool.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><hr>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials" class=" py-20">
+        <div class="container mx-auto text-center mb-20">
+            <h2 id="heading" class="text-3xl text-center text-yellow-500 mb-100px font-semibold">What our Guests say about us !</h2>
+            <div class="flex justify-center mt-100 space-x-12">
+                
+                <div id="test" class="bg-white p-10 rounded-lg shadow-lg w-96">
+                    <img id="testimg" class="w-full h-64 object-cover" 
+                    src="images/Test1.jpg">
+                    <p class="italic mb-4">"Very beautiful hotel with great comfort,hospitality and royalty"</p>
+                    <p class="font-bold">Priti Ahuja</p>
+                </div>
+
+                <div id="test" class="bg-white p-10 rounded-lg shadow-lg w-96">
+                    <img id="testimg" class="w-full h-64 object-cover" 
+                    src="images/Test2.webp">
+                    <p class="italic mb-4">"It was such an unforgettable moment of life to spend our vacations here"</p>
+                    <p class="font-bold">Prabhu Shriniwasan</p>
+                </div>
+
+                <div id="test" class="bg-white p-10 rounded-lg shadow-lg w-96">
+                    <img id="testimg" class="w-full h-64 object-cover" 
+                    src="images/Test3.jpg">
+                    <p class="italic mb-4">"Thank you Raj Mahal Hotel for making our wedding more memorable"</p>
+                    <p class="font-bold">Rishabh and Preksha</p>
+                </div>
+
+                <div id="test" class="bg-white p-10 rounded-lg shadow-lg w-96">
+                    <img id="testimg" class="w-full h-64 object-cover" 
+                    src="images/Test4.webp">
+                    <p class="italic mb-4">"It feels like we are at home , The staff is very polite and well behaved "</p>
+                    <p class="font-bold">Swati Sharma</p>
+                </div>
+
+                <div id="test" class="bg-white p-10 rounded-lg shadow-lg w-96">
+                    <img id="testimg" class="w-full h-64 object-cover" 
+                    src="images/Test5.jpg">
+                    <p class="italic mb-4">"Had a great experience here , I love the hotel , I love everything here"</p>
+                    <p class="font-bold">Carl Harrison</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+    <!-- Footer -->
+
+    <footer id="foot" class="text-black py-12 mt-10">
+        <div id="details" class="container flex justify-between space-x-12 mx-auto px-4">
+            <div id="division" class="flex justify-center mt-100 space-x-12">
+
+                <div id="division1">
+                    <ul id="main" class="space-y-4">
+                        <li><a href="#home" class="font-semibold hover:text-yellow-600">Home</a></li>
+                        <li><a href="#rooms" class="font-semibold hover:text-yellow-600">Rooms</a></li>
+                        <li><a href="#category" class="font-semibold hover:text-yellow-600">Category</a></li>
+                        <li><a href="#contact" class="font-semibold hover:text-yellow-600">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div id="division1">
+                    <h1 id="main" class="text-xl font-bold mb-4 overline">Contact Us</h1>
+                    <ul class="space-y-4 text-2xl">
+                        <li>Email: hotelrajmahal@gmail.com</li>
+                        <li>Phone: 07162-232425</li>
+                        <li>Address: Raj Path,Jaipur,Rajasthan</li>
+                    </ul>
+                </div>
+
+                <div id="division1">
+                    <h1 id="main" class="text-xl font-bold mb-4 overline">Follow us</h1>
+                    <ul class="space-y-4">
+                        <li><a href="https://www.gmail.com"class="hover:text-yellow-600">Gmail</a></li>
+                        <li><a href="https://www.instagram.com"class="hover:text-yellow-600">Instagram</a></li>
+                        <li><a href="https://www.whatsapp.com"class="hover:text-yellow-600">WhatsApp</a></li>
+                    </ul>
+                </div>
+
+                <div id="division1">
+                    <h1 id="main" class="text-2xl font-bold mb-4">Get Membership of our Hotel</h1>
+                    <p class="mb-4 text-grey-300">Get access to latest offers</br>Get extra 10% OFF</br>Free meal on every stay</p>
+                    <input id="input" type="email" placeholder="Enter your email" class="w-full p-2 rounded-lg mb-4" />
+                    <button id="button" class="bg-yellow-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-yellow-600 w-full">Subscribe</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="text-center py-4 mt-8">
+            <p id="rights" class="text-sm">2025 &copy ; All rights reserved with Raj Mahal Hotel</p>
+         </div>
+    </footer>
+    
+</body>
+</html>
